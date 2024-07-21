@@ -1,0 +1,326 @@
+.logo {
+  display: flex;
+  height: 30px;
+  height: 30px;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+.converse {
+  mix-blend-mode: color-burn;
+}
+header {
+  display: flex;
+  gap: 70%;
+  background-color: #f5f5f5;
+}
+.top {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.top a {
+  text-decoration: none;
+  color: black;
+}
+.logoo {
+  margin-left: 2%;
+  margin-top: 1%;
+}
+heade {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+.logoo img {
+  height: 30px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.nav a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.search {
+  border-radius: 20px;
+}
+
+.shopping {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+  margin-top: 1%;
+  gap: 40px;
+}
+video {
+  width: 100%;
+  height: 100%;
+}
+.discription {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin: 20px 0px 70px 0px;
+}
+.section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.experience {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.btn {
+  display: flex;
+  gap: 20px;
+}
+.shop-air {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 8px;
+}
+.products {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.products p {
+  margin-left: 30px;
+  color: #f5f5f5;
+  padding-top: 250px;
+}
+.products button {
+  margin-left: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  padding: 5px;
+}
+.products {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+.products p {
+  margin-left: 30px;
+  color: #f5f5f5;
+  padding-top: 250px;
+}
+.products button {
+  margin-left: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
+  padding: 5px;
+}
+.product-1,
+.product-2,
+.product-3,
+.product-4 {
+  width: 50%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product-1 {
+  background-image: url("https://www.cosmopolitanme.com/cloud/2022/05/31/nike-alate-sports-bra-range.jpg");
+}
+.product-2 {
+  background-image: url("https://sourcingjournal.com/wp-content/uploads/2023/08/Nike.webp?w=910&h=511&crop=1");
+}
+.product-3 {
+  background-image: url("https://static.nike.com/a/images/w_1920,c_limit,f_auto,q_auto/73d689ab-4be3-499a-a2f6-e6bc4195e00a/image.jpg");
+}
+.product-4 {
+  background-image: url("https://static.qns.digital/img/p/2/7/5/6/4/9/4/2756494-full_product.jpg");
+}
+.photoes {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 400px;
+  margin-top: 20px;
+}
+.photo1,
+.photo2,
+.photo3 {
+  width: 33.33%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2aDygeIk9br-VQmqM5D-7QNJl30gyysRFyw&s");
+}
+.photo2 {
+  background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ea4323d0-afc7-4b83-9ee6-f603f3994478/jordan-flight-fleece-pullover-hoodie-mZQFDv.png");
+}
+.photo3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4AJhdtz62AiwITRiFBeKA0JGCi5fKwRSE4A&s");
+}
+
+.winning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.shoess {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+  overflow-x: auto; 
+  overflow-y: hidden; 
+  margin-bottom: 40px;
+}
+
+
+
+.shoe1, .shoe2, .shoe3, .shoe4, .shoe5, .shoe6{
+  width: 400px;
+  height: 200px;
+  font-size: larger;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+
+.shoe1:hover, .shoe2:hover, .shoe3:hover, .shoe4:hover, .shoe5:hover, .shoe6:hover{
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+.shoe1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaL2a75QJhC2lb94D4ruhGrpvn48K4T7Tc4Q&s");
+}
+
+.shoe2 {
+  background-image: url("https://www.asphaltgold.com/cdn/shop/files/7d0aa0df7a90afc2c8617166eed549a9e79fa685_DZ3531_400_Nike_Air_Max_Plus_OG_Light_Photography_Light_Photography_Royal_Blue_White_os_1_768x768.jpg?v=1708353680");
+}
+
+.shoe3 {
+  background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0cee2046-19ed-42b7-a22f-7d38364d50b6/air-jordan-1-low-se-shoes-m3sXwW.png");
+}
+
+.shoe4 {
+  background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b1bcbca4-e853-4df7-b329-5be3c61ee057/dunk-low-retro-shoe-66RGqF.png");
+}
+
+.shoe5 {
+  background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2eff461f-f3ac-4285-9c6a-2f22173aac42/custom-nike-air-force-1-low-by-you.png");
+}
+
+.shoe6 {
+  background-image: url("https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/6c14d9aa-a4c2-4727-97bf-69bc44ae1394/blazer-mid-77-vintage-mens-shoes-vZC23M.png");
+}
+
+
+.footer-top {
+  display: flex;
+  gap: 10px;
+  padding: 20px 200px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+.footer-top div {
+  flex: 1;
+}
+.footer-top h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.footer-top ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-top ul li {
+  margin-bottom: 5px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+.footer-bottom div {
+  flex: 1;
+  margin: 0 10px;
+}
+.footer-bottom ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-bottom ul li {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 720px) {
+  header {
+    display: none;
+  }
+  heade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  heade .nav {
+    display: none;
+  }
+  .products {
+    flex-direction: column;
+    height: auto;
+  }
+  .product-1,
+  .product-2,
+  .product-3,
+  .product-4 {
+    width: 100%;
+    height: auto;
+  }
+  .photoes {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .photo1,
+  .photo2,
+  .photo3 {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+  }
+}
+@media (min-width: 720px) {
+  .ham {
+    display: none;
+  }
+}
